@@ -1,0 +1,23 @@
+* { background-color: #000000; }
+
+canvas {
+    border: 2px solid white;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.middle {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Eurostile";
+    font-weight: bold;
+    src: url(fonts/EurostileLTStd.eot); /* IE */
+    src: local("Eurostile"), url(fonts/EurostileLTStd.otf) format("opentype"); /* non-IE */
+}
